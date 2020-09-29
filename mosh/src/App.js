@@ -23,7 +23,7 @@ class App extends Component {
       todo.id = Math.random()
       let todos = [...this.state.todos, todo]
       this.setState({
-        todos : todos
+        todos 
       })
 
   }
